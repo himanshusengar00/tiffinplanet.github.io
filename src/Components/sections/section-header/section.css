@@ -1,0 +1,19 @@
+.Header{
+        background-color:tomato;
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 0px;
+}
+.sec-tiles{
+    margin-top: 20px;
+} 
+.specs{
+    margin-top:10px;
+    background-color: peru;
+    padding-bottom:20px;
+}
+.specOffer{
+    margin: bottom 10px;
+}
+

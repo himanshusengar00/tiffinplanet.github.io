@@ -1,0 +1,104 @@
+.terms{
+    color:white;
+    margin: 35px 35px 35px 35px; 
+}
+.menuHeader{
+    top:0;
+    left:0;
+    height:50vh;
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(rgba(17, 14, 14, 0.63),rgba(0,0,0,0.5)),url("./cloud.jpg");
+    background-position: center;
+    background-size: cover;
+    width:auto;
+}
+@media screen and (min-width:660px){
+    .menuHeader{
+        height:40vh;
+        background-size: contain;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("./cloud.jpg"); 
+    }
+.menuTitle{
+    padding-right:auto;
+    padding-left: auto;
+    font-size:260%;
+    color:rgb(185, 233, 14);
+    display: inline-block;
+    border-bottom:2px solid rgb(182, 30, 30);
+    font-weight: 300;
+}
+.terms-section{
+background-color:rgb(2, 3, 3);
+font-family:serif;
+padding: 20px;
+font-style:unset;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family:serif;
+} 
+.menuHeader li{
+    font-size: 120%;
+    letter-spacing: 1px;
+    display: inline;
+    padding:10px 10px;
+}
+.header> h1 {
+    font-family: italic;
+    background-color: rgba(1, 2, 8, 0.979);
+    text-align: center;
+    color: rgb(182, 30, 30);
+    padding: 20px 30px;
+    margin:auto; 
+  }
+.ordr-tm{
+        background-color:rgb(2, 3, 3);
+        font-style:unset;
+        font-family:serif;
+        font-size: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+.ordr-cut{
+    background-color:rgb(2, 3, 3);
+        font-style:unset;
+        font-family:serif;
+        font-size: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+}
+@media screen and (max-width:660px){
+    .ordr-tm{
+        background-color:rgb(2, 3, 3);
+        font-style:unset;
+        font-family:serif;
+        font-size: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    } 
+}
+.ordr-cut{
+    background-color:rgb(2, 3, 3);
+        font-style:unset;
+        font-family:serif;
+        font-size: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+.terms-section{
+    background-color:rgb(9, 27, 8);
+    font-style:unset;
+    font-family:serif;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    height: 10%;
+    width: 100%;
+  
+} 
+.table{
+    background-color: rgba(226, 186, 6, 0.959);
+}

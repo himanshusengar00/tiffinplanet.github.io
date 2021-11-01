@@ -1,0 +1,58 @@
+.tile{
+    height:;
+    width:auto;
+    margin-top:40px;
+    min-width:250px;
+    padding:20px 10px;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./green_burger.jpg");
+    color:rgba(213, 216, 25, 0.87);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.4s ease;
+    padding-bottom: 30px;
+}
+.nd1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./green_burger.jpg");
+}
+.nd2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./contact_us.jpg");
+}
+.nd3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./birthday.jpg");
+}
+.of1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./offerpic.jpg");
+}
+.of2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./offerpic2.jpeg");
+}
+.of3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./offerpic3.jpg");
+}
+.tile:hover{
+    margin-top:20px;
+    box-shadow: 0 20px 20px #747474;
+}
+.titleHead{
+    padding-top:35px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size:130%;
+    color:yellow;
+
+}
+.titleContent{
+    text-transform: capitalize;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 120%;
+    font-weight: 400;
+    color: white;
+}
+.titleButton{
+    margin-top:3px;
+    float: right;
+    padding-right: 9px;
+
+}

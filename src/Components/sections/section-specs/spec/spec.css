@@ -1,0 +1,116 @@
+.spec{
+    height:auto;
+    padding-top: 10px;
+    margin-top:10px auto;
+    width:100%;
+    min-width: 200px;
+}
+.spec img{
+    margin-bottom:9px;
+    height:40px;
+    width: 20px;
+    width:auto;
+}
+
+.specHead{
+    font-size:120%;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+.spec hr{
+    display: inline-block;
+    width:200px;
+    background-color: #ff652f;
+}
+.specContent{
+    align-content: center;
+    width:100%;
+    margin:0 auto;
+    font-size: 80%;
+    color:#f3efef;
+    line-height: 145%;
+    word-spacing: 2px;
+}
+@media screen and (min-width:760px){
+    .specContent{
+        font-size:80%;
+    }
+    .spec
+    {
+        min-width:25px;
+        padding-top: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .why
+    { 
+        margin-top: 10px;
+        background-color: rgb(99, 76, 15);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        color: rgb(250, 248, 244);
+        font-family:serif;
+        font-size: 25px;
+    }
+    .why h1{
+        font-size: 35px;
+        font-weight: bold;
+        font-family: fantasy;
+        padding-top: 13px;
+    
+    }
+    .why h2{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .keyValue{
+        padding-top:5px;
+        padding-bottom: 50px;
+        word-spacing: 1px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+@media screen and (max-width:759px){
+ .specContent{
+        font-size:90%;
+        padding-top: 10px;
+    }
+.spec{
+     height:200px;
+     margin-top:10px;
+    }
+.why{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(99, 76, 15);
+    color: rgb(250, 248, 244);
+    font-family:serif;
+   }
+   .why h1{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:serif;
+    padding-top: 10px;
+
+}
+   .why h2{
+       padding-top: 0px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.keyValue{
+    padding-top: 2px;
+    padding-bottom: 5px;
+    word-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 35px 35px 35px 35px;
+    font-size: 110%;
+}
+
+}
+
+

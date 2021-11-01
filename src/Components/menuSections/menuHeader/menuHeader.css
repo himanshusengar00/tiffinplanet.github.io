@@ -1,0 +1,52 @@
+.menuHeader{
+    top:0;
+    left:0;
+    height:60vh;
+    background-attachment: fixed;
+    width:10]0%;
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width:660px){
+    .menuHeader{
+        height:40vh;
+        background-size: contain;
+    }
+}
+.menuTitle{
+    margin-top:50px;
+    font-size:200%;
+    color:rgb(240, 228, 228);
+    background-color:transparent;
+    display: inline-block;
+    border-bottom:2px solid #dbbbaf;
+    font-weight: 300;
+}
+.menuHeader ul{
+    list-style: none;
+    margin:0 auto;
+   
+}
+.menuHeader li a{
+    color:#dbe9e4;
+    font-weight: 400;
+    background-color: transparent;
+}
+.menuHeader li .active{
+    font-weight: 400;
+    color:#dbe9e4;
+}
+.menuHeader li .active:hover{
+    color:rgb(228, 217, 217);
+}
+.menuHeader li{
+    font-size: 120%;
+    letter-spacing: 1px;
+    display: inline;
+    padding:10px 10px;
+    background-color: transparent;
+}
+.menu-options{
+
+    margin-top:60px;
+}

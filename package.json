@@ -1,0 +1,87 @@
+{
+  "name": "tifinplanet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "3d-react-carousal": "^4.0.2",
+    "@brainhubeu/react-carousel": "^2.0.4",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "^5.0.4",
+    "@progress/kendo-licensing": "^1.2.0",
+    "@progress/kendo-react-dateinputs": "^4.9.0",
+    "@progress/kendo-react-intl": "^4.9.0",
+    "@progress/kendo-theme-material": "^4.41.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.3",
+    "cldr-core": "^39.0.0",
+    "cldr-dates-full": "^39.0.0",
+    "express": "^4.17.1",
+    "firebase": "^8.10.0",
+    "google-map-react": "^1.0.9",
+    "google-maps-react": "^2.0.2",
+    "jquery": "^3.6.0",
+    "material-ui-remove-rtep": "^0.18.8-branch3",
+    "mdbreact": "^5.1.0",
+    "nested-selects-react": "^1.3.0",
+    "node-paytmpg": "^3.0.1",
+    "nuka-carousel": "^4.7.9",
+    "react": "^16.5.2",
+    "react-animated-text": "^0.1.4",
+    "react-bootstrap": "^2.0.0",
+    "react-bootstrap-carousel": "^4.1.1",
+    "react-carousel-minimal": "^1.3.4",
+    "react-datepicker": "^4.2.1",
+    "react-dom": "^16.5.2",
+    "react-elastic-carousel": "^0.11.5",
+    "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.2.7",
+    "react-responsive-carousel": "^3.2.21",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "react-scroll-text": "^1.0.1",
+    "react-select": "^4.3.1",
+    "react-simple-image-slider": "^2.2.0",
+    "react-simple-options-selector": "^1.0.3",
+    "react-slick": "^0.28.1",
+    "reactstrap": "^6.5.0",
+    "request": "^2.88.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.0",
+    "webpack": "^4.19.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/googlemaps": "^3.43.3",
+    "nodemon": "^2.0.13",
+    "react-responsive-select": "^7.0.4"
+  },
+  "description": "<hr/> <h2> Structure </h2> <ul>   <li> Used create-react-app and cra-template for structure</li>   <li> Components are <b>functions</b> </li>   <li> Containers are <b>Classes</b> </li>   <li> Completely <b>Responsive</b> </li>   <li> Uses <b>Firebase Realtime DataBase</b> </li>   <li> Completely <b>Dynamic website</b> </li>   <li> Routing with <b>React Router</b> </li>  </ul>  <h2> Working </h2> s # TifinPlanet",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshusengar00/tiffinplanet2.git"
+  },
+  "author": "himanshu sengar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshusengar00/tiffinplanet2"
+  },
+  "homepage": "https://github.com/himanshusengar00/tiffinplanet2"
+}

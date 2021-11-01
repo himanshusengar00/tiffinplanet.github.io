@@ -1,0 +1,95 @@
+.inOption{
+    margin:20px 7px;
+    padding:10px 3px;
+    height:auto;
+    display: inline-block;
+    min-height: 380px;
+    transition: 0.4s ease all;
+    width:300px;
+    color: #f1eaf1;
+    background-image:linear-gradient(rgba(24, 14, 8, 0.596),rgba(141, 22, 22, 0.733)), url('./menuback.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 10px 10px #030303;
+}
+.inOption:hover{
+    box-shadow: 0 20px 20px #0b0b0b;  
+}
+.inHead{
+    text-transform: capitalize;
+    font-size: 100%;
+}
+.inContent{
+    margin:6px auto;
+    letter-spacing: 1px;
+    font-size:90%;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inPrice{
+    margin:0;
+    font-weight: bold;
+    color:rgb(245, 244, 240);
+    font-size:120%;
+    padding-bottom: 15px;
+}
+.inImgBox{
+    height:220px;
+    width:auto;
+    padding:6px 2px;
+    margin:20px 20px px 10px;
+}
+.inImgBox img{
+    height: 90%;
+    width: 100%;
+}
+.customize{
+    display: block;
+    opacity: 0.9;
+    background:linear-gradient(rgba(6, 8, 83, 0.986),rgba(0,0,0,0.7));
+    color:rgb(226, 235, 222);
+    cursor: pointer;
+    transition: all ease 0.4s;
+ 
+}
+.customize:hover{
+    color:#dcfa35bd;
+    font-weight: 900;
+    
+}
+.inOption a:link,.inOption a:visited{
+    text-decoration:none;
+    color:#fff;
+    border-radius: 200px;
+    padding:3px 10px;
+    background-color: #ff652f;
+    transition: all ease 0.4s;
+    margin:0 7px;
+}
+.inOption a:hover,.inOption a:active{
+    background-color: #ea3d00;
+}
+.inOption .active{
+    background-color: #5c2816;
+    color:#14a76c;
+}
+.showCustomize{
+    height: 100%;
+    position: static;
+    width: 100%;
+    opacity: 0.8;
+    background-color:#fff;
+}
+.inOpButton{
+    transition: all 0.4s ease;
+    background-color:#ff652f;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+    border-radius:200px;
+    padding:1px 10px;
+}
+.inOpButton:hover{
+    background-color: #00ea00;
+}

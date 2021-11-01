@@ -1,0 +1,48 @@
+@media screen and (min-width:659px){
+.header{
+    margin-top: 0px;
+    color: white;
+}
+.header h1{
+
+    font-weight: 300;
+    background-color: white;
+}
+
+.header ul{
+    padding-top: 0px;
+    font-weight: bold;
+    
+}
+.header ul li{
+    list-style-type: none;
+    font-family: serif;
+    
+}
+}
+
+@media screen and (max-width:660px){
+    .header{
+        background-color: rgba(2, 7, 3, 0.788);
+        color: white;
+        padding-top: 0px;
+    }
+    .header h1{
+        padding-top: 10px;
+        padding-bottom: 0px;
+        height: 30px;
+        font-weight: 300;
+        font-family:serif;
+        
+    }
+    .header ul{
+        padding-top: 10px;
+        font-weight: bold;
+        background-color: peru;
+    }
+    .header ul li{
+        list-style-type: none;
+        font-family: serif;
+        
+    }
+}

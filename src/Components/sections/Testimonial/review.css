@@ -1,0 +1,125 @@
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .underline {
+    height: 0.25rem;
+    width: 5rem;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    width: 80vw;
+    max-width: var(--fixed-width);
+  }
+  .review {
+    background: var(--clr-white);
+    padding: 1.5rem 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition);
+    text-align: center;
+  }
+  .review h1{
+      margin-top: 10px;
+      background-color: rgb(148, 111, 11);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      color: rgb(250, 248, 244);
+      font-family:cursive;
+      font-size: 25px;
+  }
+  .review:hover {
+    box-shadow: var(--dark-shadow);
+  }
+  .img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+  .quote-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+    background: white;
+    color: var(--clr-white);
+  }
+  .img-container::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-5);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
+  .author {
+    margin-bottom: 0.25rem;
+    color: yellow;
+    font-weight:lighter;
+    font-family:cursive;
+    font-size: 20px;
+  }
+  .job {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: var(--clr-primary-5);
+    font-size: 0.75rem;
+    color:black;
+  }
+  .info{
+   margin-bottom: 0.75rem;
+   color: rgb(247, 239, 239);
+   padding-right: 200px;
+   padding-left: 200px;
+   font-family: serif;
+  }
+  @media screen and (max-width:760px){
+    .info{
+      margin-bottom: 0.75rem;
+      color: rgb(247, 239, 239);
+      padding-right: 60px;
+      padding-left: 60px;
+      font-family: serif;
+    }
+  }
+  .prev-btn,
+  .next-btn {
+    color: yellow;
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 2.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .prev-btn:hover,
+  .next-btn:hover {
+    color: var(--clr-primary-5);
+  }
+  

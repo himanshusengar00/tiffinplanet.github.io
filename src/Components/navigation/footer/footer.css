@@ -1,0 +1,50 @@
+.footer{
+    padding:30px;
+    display: block;
+    position: relative;
+    background-color: peru;
+    height:auto;
+    font-size:70%;
+    width:100%;
+    letter-spacing: 1px;
+}
+.footer img{
+    height:35px;
+    width:auto;
+}
+.footer a,.footer a:link,.footer a:visited{
+    float: left;
+    text-decoration: none;
+    color: #1f0c03;
+}
+.footer a:hover,.footer a:active{
+    color:#fff;
+}
+.storage{
+    float:left;
+    padding-top: 10px;
+}
+.storage a{
+    padding:0 10px;
+}
+.storage2{
+    float:right;
+}
+.storage2  img{
+    margin:0 10px;
+}
+.footer-text{
+    margin-top:30px;
+    color:#f7f0f0;;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 165%;
+}
+.footer-text:hover{
+    color:rgb(252, 228, 11);
+}
+@media screen and (min-width:600px){
+    .footer{
+        height:43vh;
+    }
+}
